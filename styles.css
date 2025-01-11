@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #DDD0C8;
+    font-family: "Tinos", sans-serif;
+}
+
+/* Menu Horizontal */
+nav{
+    background-color: #323232;
+    position: fixed;
+    width: 100%;
+}
+.nav-options{
+    display: inline-block;
+
+}
+ul{
+    text-align: center;
+    padding: 15px;
+}
+.nav-options > a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+}
+.nav-options > a:hover {
+    color: #323232;
+    background-color: whitesmoke;
+}
+#presentacion{
+    color: black;
+    background-image: url(https://i.pinimg.com/736x/e2/dc/9a/e2dc9a38a27b77190e0a04b20e8f185a.jpg);
+    text-align: center;
+    background-size: contain;
+    padding: 10%;
+}
+#presentacion > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/* About Me */
+#about-me{
+    border-top : solid 2px;
+    padding: 60px;
+    text-align: center;
+    
+}
+#about-me > h2 {
+    font-size: 30px;
+    color: black;
+    padding: 20px;
+    
+}
+#about-me > p{
+    color: #323232;
+}
+
+#about-me > img{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    border: 2px solid #323232;
+  
+}
+#about-me-text{
+    display: inline-block;
+    max-width: 600px;
+    height: 400px;
+    vertical-align: top;
+    
+}
+#about-me-text > h2{
+    padding: 20px;
+}
+#description{
+    padding: 20px;
+}
+
+
+/* projects */
+#projects > h2{
+    text-align: center;
+    color: black;
+}
+#projects {
+    padding: 0px 60px 60px 60px;
+}
+.container-projects{
+    text-align: center;
+    padding: 20px;
+}
+.container-img {
+    width: 40%;
+    display: inline-block;
+}
+.container-img > img{
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.container-info {
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    padding: 10px;
+}
+.container-info > a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    background-color: #323232;
+    color: whitesmoke;
+}
+
+
+
+/* Contact */
+
+#contact{
+    padding: 60px;
+    background-color: #323232;
+    color: whitesmoke;
+}
+#info-contact{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+form{
+    display: inline-block;
+    position: relative;
+    left: 15%;
+    
+    
+    
+}
+form > label{
+    display: block;
+    width: 300px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+    
+    
+}
+form > label > input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    
+}
+
+form > label > textarea{
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+form > button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#social-media-links > a > img{
+    height: 40px;
+    width: 40px;
+}
+#social-media-links > a{
+    text-align: center;
+    margin: 10px;
+}
+
+#info-contact > h2,p{
+    margin-bottom: 10px;
+}
+/* Footer */
+footer{
+    text-align: center;
+    color: #323232;
+    padding: 20px;
+}
